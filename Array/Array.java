@@ -1,12 +1,13 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+/* Java program to get array size and array elements form user and display the normal array and reversed array  */
+
 import java.util.Scanner;
 public class Array {
     public static void main(String[] args) {
 
-        /*int[][] arr ={{1,2,3,4},{5,6,7},{8,9,0}}; 
-         int arr[] = new int[5];
+        /* Basic way to define an array size and its element.
+
+        int[][] arr ={{1,2,3,4},{5,6,7},{8,9,0}}; 
+        int arr[] = new int[5];
         arr[0]=1;
         arr[2]=4;
         arr[1]=5;
@@ -18,6 +19,7 @@ public class Array {
             
             System.out.println();
         }*/
+        
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter Array  Size ");
         int size= sc.nextInt();

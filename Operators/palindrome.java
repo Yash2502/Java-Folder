@@ -1,3 +1,5 @@
+/*Java Program to find reverse of the given number  and check if it is Palindrome or not. */
+
 import java.util.Scanner;
 class palindrome {
     public static void main(String[] agrs) {
@@ -12,6 +14,7 @@ class palindrome {
             reversed = reversed * 10 + digit;
             temp /= 10;
         }
+        System.out.println("Reverse number is - "+reversed);
         if(reversed==x){
             System.out.println("Palidrome");
         }

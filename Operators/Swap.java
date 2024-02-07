@@ -1,3 +1,9 @@
+/*Java program to swap two numbers using -
+ * 1) a temporary variable
+ * 2) using + & - operator
+ * 3) using * & / operator
+ */
+
 import java.util.Scanner;
 
 public class Swap {
@@ -7,22 +13,24 @@ public class Swap {
         int a = sc.nextInt();
         System.out.println("Enter valur of B");
         int b =sc.nextInt();
-       /*  int temp = 0;
+      
+        /*  Using Temporary varaibale 
+        int temp = 0;
         temp = a;
         a=b;
         b=temp; */
 
         //Before Swapping
+        System.out.println("Before Swapping ");
         System.out.println("value of A is "+a);
         System.out.println("value of B is "+b);
 
-        //Logic
-        a = a+b;
-        b=a-b;
-        a=a-b;
-       
+        //Logic using operators
 
-
+        a = a+b;        //a = a*b;
+        b = a-b;        //b = a/b;
+        a = a-b;        //a = a/b;
+        
        // After Swapping
        System.out.println("After Swapping");
         System.out.println("Now A is "+a);

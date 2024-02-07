@@ -1,3 +1,16 @@
+/*Java program for calculator using if - else statment 
+ Welcome to my calculator
+Enter 1st Digit
+12
+Enter 2nd Digit
+23
+Add-1  Sub-2    Multi-3    mod-4
+Enter the value
+4
+Division of both number are = 1.9166666666666667
+*/
+
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -8,7 +21,7 @@ public class Calculator {
         double a= sc.nextDouble();
         System.out.println("Enter 2nd Digit ");
         double b=sc.nextDouble();
-        System.out.println("Add-1  Sub-2    Multi-3    mod-4");
+        System.out.println("Add-1  Sub-2    Multi-3    Div-4");
         System.out.println("Enter the value");
         int o = sc.nextInt();
         if(o==1){
@@ -22,7 +35,7 @@ public class Calculator {
             System.out.println("Product of both number are = "+(a*b));
         }
         else if(o==4){
-            System.out.println("Mod of both nujmber are = "+(a%b));
+            System.out.println("Division of both number are = "+(b/a));
         }
         else{
             System.out.println("Value dekh k daal bhai");

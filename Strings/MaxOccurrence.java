@@ -1,3 +1,9 @@
+/*Java program to find the maximun occurance of a character 
+ * Input - Helloooo! hope you are doing great
+ * Output- Maximum occurring character is o
+ */
+
+
 import java.util.Scanner;
 
 public class MaxOccurrence {

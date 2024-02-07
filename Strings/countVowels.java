@@ -1,3 +1,10 @@
+/*Java program to count vowels and consonant in a given string 
+ Enter the string here : i am going great
+Vowels are : I A O I E A 
+Vowels count is 6
+Conso Count is 7
+*/
+
 import java.util.Scanner;
 public class countVowels{
     public static void main(String[] args) {
@@ -18,7 +25,6 @@ public class countVowels{
             else if(cap.charAt(i)>='A' && cap.charAt(i)<='Z')
             {
                 countn++;
-               // System.out.println("Conso are "+current +" ");
 
             }
         }

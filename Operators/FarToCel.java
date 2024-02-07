@@ -1,3 +1,5 @@
+/*Java Program to convert temprature form fahrenite to Celcius */
+
 import java.util.Scanner;
 
 public class FarToCel {

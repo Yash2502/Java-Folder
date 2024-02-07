@@ -1,3 +1,5 @@
+/*Java program to find if a number is Even or Odd  */
+
 import java.util.Scanner;
 
 public class EvenOdd {
